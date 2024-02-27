@@ -82,6 +82,15 @@ button {
   border-radius: 0.5em;
 }
 
+button:hover{
+	cursor: pointer;
+}
+
+button:active{
+	background-color:#50aaf0; 
+	transition: 0.8s linear;
+}
+
 .active {
   border-color: var(--active-color);
 }
